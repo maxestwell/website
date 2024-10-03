@@ -2,51 +2,41 @@
 defineProps<{
   msg: string
 }>()
+import { RouterLink, RouterView } from 'vue-router'
+
 import HelloWorldItem from './HelloWorldItem.vue'
 import Logo from './icons/Logo.vue'
 </script>
 
 <template>
   <div class="greetings">
-    <HelloWorldItem>
+    <!-- <HelloWorldItem>
       <template #icon>
         <Logo />
       </template>
-    </HelloWorldItem>
+    </HelloWorldItem> -->
 
-    <h1 class="green">{{ msg }}</h1>
+    <!-- <h1 class="heading">{{ msg }}</h1> -->
+    <h1 class="heading">
+      <RouterLink to="/">max <i>is</i> well</RouterLink>
+    </h1>
     <!-- <h3>designing with intent</h3> -->
   </div>
 </template>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2rem;
-  position: relative;
-  /* top: -10px; */
-  width: 100%;
+a {
+  /* height: 100%; */
+  font-weight: 700;
 }
 
-h3 {
-  font-size: 1.2rem;
+i {
+  font-style: italic;
+  font-weight: 700;
 }
 
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-  width: 100%;
-}
-.greetings {
+/* .greetings {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* @media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
+  align-items: baseline;
 } */
 </style>

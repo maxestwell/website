@@ -1,8 +1,6 @@
 <template>
   <div class="item">
-    <i>
-      <slot name="icon"></slot>
-    </i>
+    <slot name="icon"></slot>
   </div>
 </template>
 
@@ -10,15 +8,10 @@
 .item {
   display: flex;
   position: relative;
+  padding-right: 1rem;
 }
 
-i {
-  display: flex;
-  /* place-items: center; */
-  place-content: center;
-  width: 50%;
-  height: 50px;
-
+#icon {
   color: var(--color-text);
 }
 </style>
