@@ -25,6 +25,8 @@ header {
   /* line-height: 1.5; */
   /* max-width: 100vh; */
   height: 90px;
+  position: sticky;
+  top: 0;
 }
 
 header .wrapper {
@@ -41,21 +43,9 @@ header .wrapper {
   margin: 0 auto 2rem;
 }
 
-nav {
-  /* width: 100%; */
-  font-size: 12px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  /* height: 100%; */
-
-  /* margin-top: 2rem; */
-}
-
 a {
-  height: 100%;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 nav a {

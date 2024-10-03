@@ -11,13 +11,15 @@
 
 <style scoped>
 .item {
-  /* margin-top: 2rem; */
+  height: 10rem;
   display: flex;
   position: relative;
 }
 
 .details {
-  flex: 1;
+  /* flex: 1; */
+  display: flex;
+  align-items: end;
   /* margin-left: 1rem; */
 }
 
