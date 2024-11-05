@@ -4,7 +4,6 @@
       <h3>
         <slot name="heading"></slot>
       </h3>
-      <slot></slot>
     </div>
   </div>
 </template>
@@ -25,7 +24,7 @@
 
 h3 {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 900;
   color: var(--color-heading);
 }
 
