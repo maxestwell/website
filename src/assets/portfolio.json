@@ -2,8 +2,8 @@
   "portfolio": [
     {
       "id": 0,
-      "Title": "Finland",
-      "Location": "Museum redesign",
+      "Title": "Project",
+      "About": "about the project",
       "img": {
         "alt": "img",
         "path": "assets/img/img.svg"
@@ -11,8 +11,8 @@
     },
     {
       "id": 1,
-      "Title": "Hand Tracking Synth",
-      "Location": "Cycling '74 Max/MSP",
+      "Title": "Project",
+      "About": "about the project",
       "img": {
         "alt": "img",
         "path": "assets/img/img.svg"
@@ -20,8 +20,8 @@
     },
     {
       "id": 2,
-      "Title": "Search the Spectrogram",
-      "Location": "NFSA API",
+      "Title": "Project",
+      "About": "about the project",
       "img": {
         "alt": "img",
         "path": "assets/img/img.svg"
