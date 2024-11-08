@@ -3,7 +3,17 @@ import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
-const item = ref(null)
+interface PortfolioItem {
+  id: number
+  title: string
+  description: string
+  img: {
+    path: string
+    alt: string
+  }
+}
+
+const item = ref<PortfolioItem | null>(null)
 
 onMounted(() => {
   //now we are nested need to go up a directory to get json
@@ -13,6 +23,7 @@ onMounted(() => {
       console.log('loading single project')
 
       item.value = data.find((i: { id: number }) => i.id === Number(route.params.id))
+      console.log('Loaded item:', item.value?.img)
     })
     .catch((error) => console.error('Error fetching item data:', error))
 })

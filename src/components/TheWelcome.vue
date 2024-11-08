@@ -10,9 +10,20 @@ import { RouterLink, RouterView } from 'vue-router'
 
 import { ref, onMounted } from 'vue'
 
-const items = ref([]) // Define `items` as a reactive variable
+interface Item {
+  id: number
+  title: string
+  description: string
+  img: {
+    path: string
+    alt: string
+  }
+}
+
+const items = ref<Item[]>([]) // Define `items` as a reactive variable
 
 onMounted(() => {
+  //now we are nested need to go up a directory to get json
   fetch('./portfolio.json')
     .then((response) => response.json())
     .then((data) => {
