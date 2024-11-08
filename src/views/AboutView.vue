@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <div class="about">
     <h1 class="heading">This is an about page</h1>
   </div>
@@ -10,4 +10,4 @@
   display: flex;
   align-items: center;
 }
-</style> -->
+</style>
