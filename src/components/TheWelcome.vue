@@ -1,5 +1,5 @@
 <script setup>
-import WelcomeItem from './WelcomeItem.vue'
+// import WelcomeItem from './WelcomeItem.vue'
 import { RouterLink, RouterView } from 'vue-router'
 
 // import DocumentationIcon from './icons/IconDocumentation.vue'

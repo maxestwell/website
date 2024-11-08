@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as o,a as t}from"./index-CPYjPo0w.js";const c={},n={class:"about"};function r(i,e){return a(),o("div",n,e[0]||(e[0]=[t("h1",{class:"heading"},"This is an about page",-1)]))}const d=s(c,[["render",r]]);export{d as default};
