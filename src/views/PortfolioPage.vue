@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
@@ -12,7 +12,7 @@ onMounted(() => {
     .then((data) => {
       console.log('loading single project')
 
-      item.value = data.find((i) => i.id === Number(route.params.id))
+      item.value = data.find((i: { id: number }) => i.id === Number(route.params.id))
     })
     .catch((error) => console.error('Error fetching item data:', error))
 })
