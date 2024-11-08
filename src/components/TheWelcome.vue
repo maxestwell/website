@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import WelcomeItem from './WelcomeItem.vue'
 import { RouterLink, RouterView } from 'vue-router'
 
