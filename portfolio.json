@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "title": "Project",
+    "description": "about the project",
+    "img": {
+      "alt": "img",
+      "path": "./favicon.ico"
+    }
+  },
+  {
+    "id": 1,
+    "title": "AHHH",
+    "description": "about the project",
+    "img": {
+      "alt": "img",
+      "path": "./logo.svg"
+    }
+  },
+  {
+    "id": 2,
+    "title": "RAHHHHHHHHHH",
+    "description": "about the project",
+    "img": {
+      "alt": "img",
+      "path": "./logo.svg"
+    }
+  }
+]
